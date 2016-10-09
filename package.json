@@ -1,0 +1,8 @@
+{
+  "name": "electron",
+  "version": "0.0.1",
+  "main": "app/index.js",
+  "devDependencies": {
+    "reveal": "0.0.4"
+  }
+}

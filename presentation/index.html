@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../node_modules/reveal/index.css">
+    <link rel="stylesheet" href="../node_modules/reveal/theme/sky.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="../node_modules/reveal/index.js"></script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <img src="images/electron-logo.svg">
+        </section>
+        <section>
+            <p>Developed by GitHub</p>
+            <p>Library for building cross-platform desktop applications with HTML, CSS, and JavaScript</p>
+            <div class="div-flex-row" style="height: 500px; text-align: center">
+                <img src="images/logo_chromium.png" style="
+    width: 400px;
+    height: 400px;">
+                <img src="images/nodejs.png" style="
+                width: 400px;
+                height: 400px;">
+            </div>
+        </section>
+        <section>
+            <h1>differences</h1>
+            <div class="div-flex-row" style="font-size: 20px">
+                <div>
+                    <h5 style="    font-size: 35px;
+">Google Chrome</h5>
+                    <ul>
+                        <li>Colorful logo</li>
+                        <li>Reports crashes only if turned on. Please include symbolized backtraces in bug reports if you don't have crash reporting turned on.</li>
+                        <li>User metrics only if turned on</li>
+                        <li>Video and Audio codecs (may vary by distro)</li>
+                        <li>Sandboxed PPAPI (non-free) Flash plugin included in release</li>
+                        <li>Code is tested by Chrome developers</li>
+                        <li>Sandbox is always on</li>
+                        <li>Single deb/rpm package</li>
+                        <li>New releases are tested before being sent to users</li>
+                        <li>Google API keys are added by Google</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 style="    font-size: 35px;
+">Chromium</h5>
+                    <ul>
+                        <li>Blue logo</li>
+                        <li>Does not ever report crashes. Please include symbolized backtraces in bug reports.</li>
+                        <li>User metrics are never reported.</li>
+                        <li>Video and Audio codecs (may vary by distro)</li>
+                        <li>Supports NPAPI (unsandboxed) Flash plugins, including the one from Adobe in Chrome 34 and below</li>
+                        <li>Code may be modified by distributions</li>
+                        <li>Sandbox depends on the distribution (navigate to about:sandbox to confirm)</li>
+                        <li>Packaging depends on the distribution</li>
+                        <li>New release testing depends on the distribution</li>
+                        <li>Google API keys depend on the distribution</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <section >
+                <p>Electron has since been used to create applications by companies like Microsoft, Facebook, Slack, and Docker.
+                </p>
+                    <a hre="http://electron.atom.io/apps/">apps</a>
+
+        </section>
+        <section>
+            <h1 style="
+    font-size: 50px;
+">Version 1.0.0 released in May 09, 2016</h1>
+            <p>Electron 1.0 represents a major milestone in API stability and maturity.</p>
+            <ul style="
+    font-size: 26px;
+">
+                <li> Electron API Demos </li>
+                <li>Devtron (open-source extension to the Chrome Developer Tools designed to help you inspect, debug, and troubleshoot your Electron app)
+                    <ul>
+                        <li><b>Require graph</b> that helps you visualize your app’s internal and external library dependencies in both the main and renderer processes</li>
+                        <li><b>IPC monitor</b> that tracks and displays the messages sent and received between the processes in your app</li>
+                        <li><b>Event inspector</b> that shows you the events and listeners that are registered in your app on the core Electron APIs such as the window, app, and processes</li>
+                        <li><b>App Linter</b> that checks your apps for common mistakes and missing functionality</li>
+                    </ul>
+                </li>
+                <li>Spectron (integration testing framework for Electron apps)</li>
+            </ul>
+        </section>
+    </div>
+</div>
+<script src="js/reveal.js"></script>
+<script>
+    Reveal.initialize();
+</script>
+</body>
+</html>
