@@ -1,12 +1,14 @@
 {
-  "name": "electron",
+  "name": "electronPresentation",
   "version": "0.0.1",
   "main": "app/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . electronPresentation --all --version=1.4.3"
   },
   "devDependencies": {
     "devtron": "^1.4.0",
+    "node-notifier": "^4.6.1",
     "reveal": "0.0.4"
   }
 }
