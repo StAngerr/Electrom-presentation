@@ -92,6 +92,19 @@
                 <li>Spectron (integration testing framework for Electron apps)</li>
             </ul>
         </section>
+        <section style="text-align: left; ">
+            <h3 style="font-weight: bold;">Main Process</h3>
+            <p >In Electron, the process that runs package.json’s main script is called the main process. The script that runs in the main process can display a GUI by creating web pages.</p>
+            <h3 style="font-weight: bold;">Renderer Process</h3>
+            <p>Since Electron uses Chromium for displaying web pages, Chromium’s multi-process architecture is also used. Each web page in Electron runs in its own process, which is called the renderer process.</p>
+        </section>
+        <section>
+            <img src="images/archit.png">
+        </section>
+        <section>
+            <h3> ipc (inter-process communication) </h3>
+            <img src="images/ipc.png">
+        </section>
     </div>
 </div>
 <script src="js/reveal.js"></script>

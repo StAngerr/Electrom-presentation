@@ -2,7 +2,11 @@
   "name": "electron",
   "version": "0.0.1",
   "main": "app/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
   "devDependencies": {
+    "devtron": "^1.4.0",
     "reveal": "0.0.4"
   }
 }
