@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <style>
+        html,
+        body {
+            width:100%;
+            height: 100%;
+        }
+
+        #address {
+            display: block;
+            width: 30%;
+            height: 4%;
+            margin: 0 auto;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <input id="address" type="text">
+    <button id="searchBtn" onclick="browser.loadURL()">Search</button>
+    <webview id="webContent" src="http://www.google.com/" style="width: 100%; height: 100%"></webview>
     <script src="menuTpl.js"></script>
+    <script src="browserCtrl.js"></script>
 </body>
 </html>
