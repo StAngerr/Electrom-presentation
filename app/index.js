@@ -1,6 +1,5 @@
 const {app, BrowserWindow, Tray} = require('electron');
 const ipcMain = require('electron').ipcMain;
-const notifier = require('node-notifier');
 
 let window;
 
@@ -14,7 +13,7 @@ function createWindow () {
 
     window.setMenu(null);
     window.on('closed', () => {
-        window = null
+        window = null;
     });
 
 

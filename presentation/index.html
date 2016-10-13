@@ -115,6 +115,24 @@
             </ul>
         </section>
         <section>
+            <h3>webview Tag</h3>
+            <p>Display external web content in an isolated frame and process.</p>
+            <ul>
+                <li>Runs in a separate process than your app</li>
+                <li>Doesn’t have the same permissions as your web page</li>
+                <li>All interactions between your app and embedded content will be asynchronous</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Building app with electron-packager (npm module)</h4>
+            <p>Supported Platforms:</p>
+            <ul>
+                <li>Windows (32/64 bit)</li>
+                <li>OS X (also known as darwin) / Mac App Store (also known as mas)</li>
+                <li>Linux (for x86, x86_64, and armv7l architectures)</li></ul>
+            <p>electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [optional flags...]</p>
+        </section>
+        <section>
             <h4>2 read</h4>
             <ul>
                 <li><a href="https://scotch.io/tutorials/build-a-music-player-with-react-electron-i-setup-basic-concepts">Music Player with React & Electron</a></li>

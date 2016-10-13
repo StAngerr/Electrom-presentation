@@ -1,3 +1,8 @@
 node_modules
 .idea
 inbox-master
+electronPresentation-linux-armv7l
+electronPresentation-linux-ia32
+electronPresentation-linux-x64
+electronPresentation-win32-ia32
+electronPresentation-win32-x64
